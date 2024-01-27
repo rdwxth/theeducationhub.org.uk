@@ -1,0 +1,60 @@
+.menu{
+  display: flex;
+  margin-top:-10px;
+}
+
+.home{
+  background-color: pink;
+  text-align: center;
+  margin-top: 40px;
+  position: absolute;
+  right: 20px;
+  border-radius: 5px;
+  border-color: black;
+}
+
+.home a {
+  color: white;
+  font-family: monospace;
+  font-size: 20px;
+  text-decoration: none;
+  padding:20px;
+}
+
+.home:hover{
+  background-color: grey;
+}
+
+.info p{
+  text-align: center;
+  color:grey;
+  font-family: monospace;
+  font-size: 25px;
+}
+
+.info span{
+  color:pink;
+  font-size: 30px;
+}
+
+.contact{
+  background-color:pink;
+  padding:20px;
+  width:100%;
+  margin-left: -20px;
+  margin-right: -20px;
+  align-items: left;
+}
+
+.contact p{
+  text-align: left;
+  color:grey;
+  font-family: monospace;
+  font-size: 10px;
+}
+
+.contact h1{
+  color:white;
+  font-size: 15px;
+  font-family: monospace;
+}

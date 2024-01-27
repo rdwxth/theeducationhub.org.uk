@@ -1,0 +1,161 @@
+html {
+  height: 100%;
+  swiSSdth: 100%;
+}
+
+.body{
+  margin:0px;
+  padding:0px;
+}
+
+.menu{
+  display: flex;
+  margin-top:-10px;
+}
+
+/* Button used to open the menu form */
+.open-button {
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  margin-left:57%;
+}
+
+/* The popup form */
+.form-popup {
+  align-items:center;
+  justify-content:center;
+  position:fixed;
+  display: none;
+  top:10%;
+  z-index: 9;
+  width:100%;
+  margin:-10px;
+}
+
+/* Add styles to the form container */
+.form-container {
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px #888888;
+  height:300px;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+.form-container a {
+  text-decoration: none;
+  font-family: monospace;
+  color:black;
+  font-size: 20px;
+}
+
+.form-container li{
+  list-style-type: none;
+  padding:5px;
+  margin:5px;
+}
+
+.header{
+  display:flex;
+  font-family: monospace;
+  justify-content:center;
+  align-items: center;
+}
+
+.btn{
+  border: none;
+  background-color:white;
+  width: 100px;
+}
+
+.header h1{
+  justify-content:center;
+  align-items: center;
+  padding-left:10%;
+  padding-right:10%;
+}
+
+.main{
+  margin-top:10px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.ad1 body{
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+}
+
+.main p {
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: monospace;
+  color:white;
+  background-color: pink;
+  padding:10px;
+}
+
+.ad1 h1{
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: monospace;
+  color:grey;
+}
+
+.ad1 h2{
+  text-align: center;
+  text-decoration: none;
+  font-size: 60px;
+  font-family: monospace;
+  color:pink;
+  margin-top: -20px;
+  margin-bottom: -3px;
+}
+
+.ad2{
+  display:flex;
+  align-items:center;
+  margin: 10px;
+}
+
+.ad2 h1{
+  text-align: center;
+  font-size: 15px;
+  font-family:monospace;
+  color: grey;
+}
+
+.ad2 span{
+  color:pink;
+  font-size: 20px;
+}
+
+.ad3{
+  display:flex;
+  align-items:center;
+  margin: 10px;
+}
+
+.ad3 h1{
+  text-align: center;
+  font-size: 15px;
+  font-family:monospace;
+  color: grey;
+}
+
+.ad3 span{
+  color:pink;
+  font-size: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+ }

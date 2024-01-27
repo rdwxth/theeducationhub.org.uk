@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>home page</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <div class = "menu">
+    <script src="script.js"></script>
+  
+    <img src = "img/logo3.png" width = "30%">
+    <button class="open-button" onclick="openForm()"><img src = "/img/menu.png" height = "30px"></button>
+  
+    <div class="form-popup" id="myForm">
+      <form action="/action_page.php" class="form-container">
+        
+        <div class = "header">  
+          <img src = "/img/logo.png" height = "100px">
+          <h1>Courses</h1>
+          <button type="button" class="btn cancel" onclick="closeForm()"><img src = "img/close.png" height = "10px"></button>
+  
+        </div>
+  
+        <hr style="border-top: dotted 1px;" />
+          
+        <div class = "courses">
+          
+          <li><a href = "/templates/contact.html">contact us</a></li>
+          <li><a href = "/templates/ks3.html">year 7-8</a></li>
+          <li><a href = "/templates/year9.html">year 9</a></li>
+          <li><a href = "/templates/GCSE.html">GCSE</a></li>
+          
+        </div>
+  
+        <hr style="border-top: dotted 1px;" />
+        
+        <div class = "footer">
+          
+        </div>
+        
+      </form>
+    </div>
+  
+  </div>
+
+  <div class = "main">
+    <hr style="border-top: dotted 1px;" />
+    <div class = "ad1">
+      <h1>Tutoring For</h1>
+      <h2>GCSE & KS3</h2>
+      <img src = "/img/ad.jpg" width = "100%">
+    </div>
+    <p>Interactive Online Tutoring</p>
+    <div class = "ad2">
+      <img src = "/img/ad2.gif" width = "45%">
+      <h1><span style = "color:pink;">detailed</span> lessons for English, Maths, Science and more</h1>
+    </div>
+    <div class = "ad3">
+      <h1><span>Regular</span> testing to improve results with <span>feedback</span></h1>
+      <img src = "img/ad3.jpg" width = "45%">
+    </div>
+    <p>testing every two months to track progress</p>
+  </div>
+  
+</body>
+
+</html>
